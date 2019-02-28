@@ -22,9 +22,3 @@ def editDistDP(str1, str2, m, n):
 
 print(str(editDistDP("saturday", "sunday", len("saturday"), len("sunday"))))
 #output 3
-
-
-def function():
-    a = [1,"+",2,"-",3]
-    for elem in a:
-        return 

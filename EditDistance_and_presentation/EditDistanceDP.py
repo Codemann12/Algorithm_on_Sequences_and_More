@@ -19,6 +19,5 @@ def editDistDP(str1, str2, m, n):
                                    dp[i-1][j-1])     # Replace 
   
     return dp[m][n] 
-
 print(str(editDistDP("saturday", "sunday", len("saturday"), len("sunday"))))
 #output 3
